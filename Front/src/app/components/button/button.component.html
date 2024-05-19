@@ -1,0 +1,7 @@
+<div class="button-container">
+    <button *ngIf="tagName == 'button'">
+        Start
+    </button>
+
+    <input *ngIf="tagName == 'input'" type="submit" [value]='btnText'/>
+</div>

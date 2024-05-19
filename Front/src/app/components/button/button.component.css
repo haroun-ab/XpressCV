@@ -1,0 +1,29 @@
+
+.button-container{
+    margin: auto;
+    width: fit-content;
+}
+
+button, input{
+    background: var(--bleu);
+    font-family: 'Seymour One', sans-serif;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    max-width: 350px;
+    min-width: 300px;
+    margin: auto;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+button:hover, input:hover{
+    box-shadow: var(--beige) 5px 5px 0px;
+}
+
+button{
+
+}
